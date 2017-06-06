@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 4px;
+  color: white;
+}
+
+.App-Airport_title {
+  background-color: #333;
+  padding: 1px;
+  margin: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: white;
+}
+
+.App-Info {
+  background-color: #ccc;
+  padding: 9px;
+  margin: 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.App-MapBox {
+  background-color: #333;
+  height: 150px;
+  padding: 3px;
+  margin-bottom: 9px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+}
+
+.App-body {
+  background-color: #fff;
+  padding: 4px;
+}
+
+.App-route {
+  background-color: #fff;
+  padding: 4px;
+  background-color: #333;
+  margin: 4px;
+  border-radius: 8px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

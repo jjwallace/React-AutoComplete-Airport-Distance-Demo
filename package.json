@@ -1,0 +1,26 @@
+{
+  "name": "airport",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Jesse Wallace",
+  "dependencies": {
+    "google-map-react": "^0.24.0",
+    "react": "^15.5.4",
+    "react-autocomplete": "^1.5.3",
+    "react-dom": "^15.5.4",
+    "react-select": "^1.0.0-rc.4",
+    "react-virtualized-select": "^3.0.1",
+    "babel": "5.x.x",
+    "babel-loader": "5.x.x",
+    "webpack": "^1.12.1"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
